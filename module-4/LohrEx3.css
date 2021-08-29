@@ -1,1 +1,73 @@
+#container{
+
+}
+
+#left {
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  #right {
+    width: 45%;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+
+h3 {
+    font-weight: 500;
+
+}
+
+#third{
+    margin-top: 60%;  
+    width: 100%;
+    
+
+}
+
+#back-to-portal {
+    float: right;
+}
+
+li {
+    font-weight: 300;
+}
+
+ol {
+    list-style-position: inside;
+    
+}
+ul {
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+
+}
+
+
+
+
 
