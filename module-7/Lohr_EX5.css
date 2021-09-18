@@ -1,0 +1,86 @@
+/*
+* @author Michael Lohr
+* Student ID 21310937
+* 8/30/2021
+* Module 5.2 assignment
+*/
+body{
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+header {
+    background-color: lightgray;
+    color:red;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+overflow: hidden;
+background-color: lightgray;
+border-bottom: solid 15px gray;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: gray;
+    color: black;
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    transition: .3;
+    width: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4f3674;
+    font-weight: 400;
+
+}
+.card-content {
+    padding: 2px 16px;
+}
+
+footer {
+    background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
